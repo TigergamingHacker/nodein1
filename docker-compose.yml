@@ -1,1 +1,18 @@
-
+debug: false
+uuid: 566d587a-546c-465b-99a1-4ff266046aa2
+token_id: dOJJAf0nxdXdPkIg
+token: cIHp38VadKpCZhAUSyvcz4iLd8RvrD7xOx1wM0CVQc1YfbYOcyX6XwbsUMhG7PKC
+api:
+  host: 0.0.0.0
+  port: 443
+  ssl:
+    enabled: false
+    cert: /etc/letsencrypt/live/accurate-centrally-stork.ngrok-free.app/fullchain.pem
+    key: /etc/letsencrypt/live/accurate-centrally-stork.ngrok-free.app/privkey.pem
+  upload_limit: 100
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'https://silver-space-system-7vpjppvp6jgv2rg5w-80.app.github.dev'
